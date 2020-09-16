@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "eventSumUpTemplate",
+    "SubjectPart": "Greetings! Event {{eventName}} sum up.",
+    "HtmlPart": "<h1>Hello {{name}},</h1><p>Here is your requested sum up for the event {{eventName}}</p><ul>{{#each attendees}}<li><p style=display:inline>{{fullname}} - {{username}} --- </p>{{#if attended}}<p style=color:green;display:inline>YES</p>{{else}}<p style=color:red;display:inline>NO</p>{{/if}}</li>{{/each}}</ul>",
+    "TextPart": "Dear {{name}}, you must see this email with html support enabled."
+  }
+}
